@@ -1,3 +1,11 @@
+.container-fluid-info-specifications
+{
+	background: linear-gradient(90deg, rgba(238,238,238,0.3) 30%, rgba(238,238,224,0.3) 67%), image-url("banner_image.jpeg");
+	background-size: cover;
+	padding-bottom: 150px;
+}
+
+
 #main-logo
 {
 	width: 350px;
@@ -11,14 +19,26 @@
 
 .row-title
 {
-	margin-top: 50px;
+	margin-top: 40px;
 	text-align: center;
+}
+
+.row-title h1
+{
+	font-weight: bold;
+ 	color: White;
 }
 
 .row-description
 {
 	margin-top: 17px;
-	text-align: center;
+}
+
+.row-description p
+{
+	font-size: 25px;
+ 	text-align: center;
+ 	color: White;
 }
 
 .row-mail
@@ -30,4 +50,17 @@
 .row-mail form
 {
 	display: inline-block;
+}
+
+.button-landing
+{
+	width: 150px;
+	color: White;
+
+	background-color: rgb(105, 103, 206);
+}
+
+.container-fluid-mail-specifications h1
+{
+	font-size: 28px;
 }
