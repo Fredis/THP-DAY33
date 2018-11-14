@@ -1,0 +1,2 @@
+class AssoMailer < ApplicationMailer
+end
