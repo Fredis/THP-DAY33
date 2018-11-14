@@ -5,6 +5,16 @@
 	padding-bottom: 150px;
 }
 
+.text-underline
+{
+	text-decoration: underline;
+	text-decoration-color: #f9c12a;
+}
+
+.text-underline:hover
+{
+	text-decoration: none;
+}
 
 #main-logo
 {
@@ -52,11 +62,20 @@
 	display: inline-block;
 }
 
+.form-margin
+{
+	margin-top: 20px;
+}
+
 .button-landing
 {
 	width: 150px;
 	color: White;
+	background-color: rgb(105, 103, 206);
+}
 
+.button-landing:hover
+{
 	background-color: rgb(105, 103, 206);
 }
 
@@ -82,6 +101,11 @@
 	margin-top: 30px;
 }
 
+.logo-google:hover
+{
+	width: 120px;
+}
+
 .logo-bnf
 {
 	width: 150px;
@@ -90,7 +114,7 @@
 
 .row-organizations-title h1
 {
-	margin-top: 50px;
+	margin-top: 30px;
 	font-size: 16px;
 	text-align: center;
 }
@@ -101,3 +125,12 @@
 	text-align: center;
 }
 
+img
+{
+  transition-duration: 0.2s;
+}
+
+img:hover
+{
+	transform: scale(1.2);
+}
