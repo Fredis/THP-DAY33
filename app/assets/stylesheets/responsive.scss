@@ -1,0 +1,30 @@
+@media screen and (max-width: 640px) {
+
+  h1 {
+    font-size-adjust: 0.2;
+  }
+
+  p {
+    font-size-adjust: 0.3;
+  }
+
+  #main-logo {
+    width: 66%;
+  }
+
+  .row-organizations {
+    overflow: scroll;
+  }
+
+  .logo-ministere {
+    margin-left: 30px;
+  }
+
+  .logo-sciences-po {
+    margin-left: 370px;
+  }
+
+  .logo-google {
+    margin-left: 370px;
+  }
+}

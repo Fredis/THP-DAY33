@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>The Hacking Project - Le Boot</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>The Hacking Project - Le Boot</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <link rel="stylesheet" media="screen and (max-width: 640px)" href="responsive.scss" type="text/css" />
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129303399-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129303399-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  gtag('config', 'UA-129303399-1');
+  </script>
 
-      gtag('config', 'UA-129303399-1');
-    </script>
+</head>
 
-  </head>
-
-  <body>
-    <%= yield %>
-  </body>
+<body>
+  <%= yield %>
+</body>
 </html>
