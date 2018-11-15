@@ -9,7 +9,7 @@
 
     - @MarcelALng ( la mascotte)
     - @iCédric  ( le cerveau)
-    - @Juliette ( la belle)
+    - @Juliette ( la meilleure)
     
 ### What is the project ?
     
@@ -60,6 +60,7 @@ Les personnes qui sont à la recherche d'une formation pour apprendre à coder.
 ## Back
 
 - Bot Twitter (qui tourne 1 fois par jour via Heroku Scheduler) qui récupère les derniers tweets contenant l'expression "apprendre à coder" et renvoi d'un tweet au handle qui a posté.
+- Mailer (deux mailers créés, un asso qui a envoyé des mails à des associations d'éducation populaire, un autre newsletter qui envoie un mail régulièrement à ceux qui s'inscrivent à la newsletter)
 
 ## Front
 
@@ -78,16 +79,12 @@ Pour les futurs entrepreneurs qui recherchent un CTO (et qui pourraient s'en pas
 - Bot Twitter (qui tourne 1 fois par jour via Heroku Scheduler) qui récupère les derniers tweets contenant l'expression "recherche un CTO" et renvoi d'un tweet au handle qui a posté.
 
 ## Front
-    
-# Statistics
+
+- Bootstrap    
 
 # Tools Used
 
-# To improve
-
-## Front 
-
-## Back
+Utilisation de l'API MailChimp / Twitter / Gmail.
 
 # Sayonara 
 
