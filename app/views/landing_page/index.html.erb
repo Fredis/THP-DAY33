@@ -1,7 +1,7 @@
-<% if params[:p] && params[:p] == "1" || @subscriber_source == "1" %>
+<% if params[:p] && params[:p] == "1" %>
 <%= render 'landing_page/index1' %>
-<% elsif params[:p] && params[:p] == "2" || @subscriber_source == "2" %>
+<% elsif params[:p] && params[:p] == "2" %>
 <%= render 'landing_page/index2' %>
-<% elsif params[:p] && params[:p] == "3" || @subscriber_source == "3" %>
+<% elsif params[:p] && params[:p] == "3" %>
 <%= render 'landing_page/index3' %>
 <% end %>

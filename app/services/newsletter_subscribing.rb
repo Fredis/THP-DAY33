@@ -16,6 +16,7 @@ class NewsletterSubscribing
       { :email => mail,
       	:double_optin => false
       })
+
 	end
 
   def get_mailchimp_members
