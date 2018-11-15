@@ -1,24 +1,100 @@
-# README
+# LANDING PAGES Session 6 2018
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##  1 - Team Front
 
-Things you may want to cover:
+    -   @FredS ( la bête)
+    -   @Axel ( le normand)
+    
+## 2 - Team Back
 
-* Ruby version
+    - @MarcelALng ( la mascotte)
+    - @iCédric  ( le cerveau)
+    - @Juliette ( la belle)
+    
+### How to ?
+    
+    #### Production test :
+    
+    Landing Page - 
+    
+    Landing Page -
+    
+    Landing Page -
+    
+####     Local -  Advanced test mode
 
-* System dependencies
+1. Clone repo git clone https://github.com/Fredis/THP-DAY33 </br>
+2. Cd THP-DAY33 </br>
+3. Bundle Install </br>
+4. Rails db:migrate </br>
+5. Create .env file at root with your API Keys </br>
+6. Rails S </br>
+7. Launch browser then type [localhost] http://localhot:3000  </br>
 
-* Configuration
+## Design Choice
 
-* Database creation
+### Color Panel
 
-* Database initialization
+### Design
 
-* How to run the test suite
+# Landing Page 1
 
-* Services (job queues, cache servers, search engines, etc.)
+## Target
 
-* Deployment instructions
+## Goal
 
-* ...
+## Back
+
+- Scrapper
+
+- Database
+
+- Mailer
+
+## Front
+
+# Landing Page 2
+
+## Target
+
+## Goal
+
+## Back
+
+- Scrapper
+
+- Database
+
+- Mailer
+
+## Front
+
+# Landing Page 3
+
+## Target
+
+## Goal
+
+## Back
+
+- Scrapper
+
+- Database
+
+- Mailer
+
+## Front
+    
+# Statistics
+
+# Tools Used
+
+# To improve
+
+## Front 
+
+## Back
+
+# Sayonara 
+
+PS: We miss you Stan Lee :'(
