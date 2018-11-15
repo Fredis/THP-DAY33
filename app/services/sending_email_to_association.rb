@@ -1,7 +1,17 @@
 class SendingEmailToAssociation
 
   def send 
-    AssoMailer.acquisition_email(Association.find_by(id:610)).deliver_now
+    #AssoMailer.acquisition_email(Association.find_by(id:610)).deliver_now
+    associations = []
+    associations << Association.last
+    associations << Association.find_by(id:610)
+    associations.each do |association|
+      if association.flag == nil 
+        AssoMailer.acquisition_email(association).deliver_now
+        association.update(flag: "ok")
+      end 
+    end 
+
     end 
 
   def perform
@@ -9,17 +19,13 @@ class SendingEmailToAssociation
   end 
 
 end 
-
- # associations = Association.all
+  # associations = []
+  # associations << Association.all
     # associations.each do |association|
-    # if association.flag = nil
+    # if association.flag == nil
     # AssoMailer.acquisition_email(association).deliver_now
-    #associations = []
-    #associations << Association.find_by(id:610)
-    #associations << Association.last 
-    #associations.each do |association|
-    #  if association.flag = nil     
-    #  AssoMailer.acquisition_email(association).deliver_now
-    #  association.flag = "ok"
+    #  association.update(flag = "ok")
     #  end 
     #end 
+
+  
