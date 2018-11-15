@@ -37,14 +37,7 @@ Cette Landing Page est dédiée aux associations populaires dont l'intérêt d'u
 
 ## Back
 
-- Scrapping de mails sur un site dédié.
-
-- Insertion des mails dans un csv.
-
-- Récupération des mails du csv puis insertion en BDD.
-
-- Création d'un mail et envoi d'un mail ciblé.
-
+- Mailer (un asso qui a envoyé des mails à des associations d'éducation populaire)
 ## Front
 
 # Landing Page 2
@@ -60,7 +53,7 @@ Les personnes qui sont à la recherche d'une formation pour apprendre à coder.
 ## Back
 
 - Bot Twitter (qui tourne 1 fois par jour via Heroku Scheduler) qui récupère les derniers tweets contenant l'expression "apprendre à coder" et renvoi d'un tweet au handle qui a posté.
-- Mailer (deux mailers créés, un asso qui a envoyé des mails à des associations d'éducation populaire, un autre newsletter qui envoie un mail régulièrement à ceux qui s'inscrivent à la newsletter)
+
 
 ## Front
 
@@ -81,6 +74,10 @@ Pour les futurs entrepreneurs qui recherchent un CTO (et qui pourraient s'en pas
 ## Front
 
 - Bootstrap    
+
+# Mailer Newsletter 
+
+Un mailer newsletter qui envoie régulièrement (avec Heroku Scheduler) un mail à ceux qui s'inscrivent.
 
 # Tools Used
 
