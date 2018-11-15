@@ -14,14 +14,12 @@ class twitterbot
 
 	    @client.search("Recherche & CTO", result_type: "recent").take(25).each do |tweet|
         puts @client.update("@#{tweet.user.screen_name} Ne cherchez plus un CTO et apprenez vous même à développer votre application avec le bootcamp The Hacking Project ! Plus d'informations : http://bit.ly/2QKRt39"
-        end
    end
 
    def auto_tweet_formation
 
 	    @client.search("Apprendre à coder", result_type: "recent").take(25).each do |tweet|
         puts @client.update("@#{tweet.user.screen_name} Apprenez à coder en 3 mois avec la formation de the hacking project ! Plus d'informations : http://bit.ly/2QKfVSp"
-        end
    end
  
 	def perfom
