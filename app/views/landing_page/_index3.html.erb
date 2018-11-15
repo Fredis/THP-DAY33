@@ -45,6 +45,7 @@
 
         <%= form_for(:newsletter, :html => {:class => "form-inline form-margin"}) do |f| %>
         <%= f.text_field :mail, class: "form-control mb-2 mr-sm-2", id: "inlineFormInputName2", placeholder: "Entrez votre adresse email" %>
+        <%= f.hidden_field :page, value: params[:p] %>
         <%= f.submit "Découvrir THP", class: "btn mb-2 button-landing" %>
         <% end %>
 
