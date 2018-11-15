@@ -1,0 +1,94 @@
+<div class="wrapper">
+
+  <div class="container-fluid container-fluid-info-specifications">
+
+
+    <div class="row">
+      <div class="col-12 logo-alignment">
+        <%= image_tag "logo_thp.png", id: "main-logo" %>
+      </div>
+    </div>
+
+    <div class="row row-title">
+      <div class="col-2">
+      </div>
+      <div class="col-8">
+        <h1>
+          Ne cherchez plus un CTO et apprenez à développer votre application avec le bootcamp <span class="text-underline">gratuit</span> The Hacking Project !
+        </h1>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+
+    <div class="row row-description">
+      <div class="col-1">
+      </div>
+      <div class="col-10">
+        <p>
+          Rejoignez la nouvelle ère de la formation au numérique avec The Hacking Project, un programme gratuit de 3 mois pour apprendre les bases du développement web en Ruby et créer des projets sans l'aide de personnes !
+        </p>
+      </div>
+      <div class="col-1">
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="container-fluid container-fluid-mail-specifications">
+    <div class="row row-mail">
+      <div class="col-3">
+      </div>
+      <div class="col-6">
+        <h1>Inscrivez-vous à notre newsletter (c'est gratuit aussi)</h1>
+
+        <%= form_for(:newsletter, :html => {:class => "form-inline form-margin"}) do |f| %>
+        <%= f.text_field :mail, class: "form-control mb-2 mr-sm-2", id: "inlineFormInputName2", placeholder: "Entrez votre adresse email" %>
+        <%= f.submit "Découvrir THP", class: "btn mb-2 button-landing" %>
+        <% end %>
+
+      </div>
+      <div class="col-3">
+      </div>
+    </div>
+
+
+    <div class="row row-organizations-title">
+      <div class="col-12">
+        <h1>Ils nous font déjà confiance...</h1>
+      </div>
+    </div>
+
+    <div class="row row-organizations">
+
+      <div class="col-1">
+      </div>
+
+      <div class="col-2">
+        <%= image_tag "logo_pole_emploi.png" %>
+      </div>
+
+      <div class="col-2">
+        <%= image_tag "logo_sciences_po.png", class:"logo-sciences-po" %>
+      </div>
+
+      <div class="col-2">
+        <%= image_tag "logo_ministere.png", class:"logo-ministere" %>
+      </div>
+
+      <div class="col-2">
+        <%= image_tag "logo_google.png", class:"logo-google" %>
+      </div>
+      <div class="col-2">
+        <%= image_tag "logo_bnf.png", class:"logo-bnf" %>
+      </div>
+
+      <div class="col-1">
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

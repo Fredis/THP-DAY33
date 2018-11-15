@@ -1,0 +1,136 @@
+.container-fluid-info-specifications
+{
+	background: linear-gradient(90deg, rgba(238,238,238,0.3) 30%, rgba(238,238,224,0.3) 67%), image-url("banner_image.jpeg");
+	background-size: cover;
+	padding-bottom: 150px;
+}
+
+.text-underline
+{
+	text-decoration: underline;
+	text-decoration-color: #f9c12a;
+}
+
+.text-underline:hover
+{
+	text-decoration: none;
+}
+
+#main-logo
+{
+	width: 350px;
+	margin-top: 50px;
+}
+
+.logo-alignment
+{
+	text-align: center;
+}
+
+.row-title
+{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.row-title h1
+{
+	font-weight: bold;
+ 	color: White;
+}
+
+.row-description
+{
+	margin-top: 17px;
+}
+
+.row-description p
+{
+	font-size: 25px;
+ 	text-align: center;
+ 	color: White;
+}
+
+.row-mail
+{
+	margin-top: 45px;
+	text-align: center;
+}
+
+.row-mail form
+{
+	display: inline-block;
+}
+
+.form-margin
+{
+	margin-top: 20px;
+}
+
+.button-landing
+{
+	width: 150px;
+	color: White;
+	background-color: rgb(105, 103, 206);
+}
+
+.button-landing:hover
+{
+	background-color: rgb(105, 103, 206);
+}
+
+.container-fluid-mail-specifications h1
+{
+	font-size: 28px;
+}
+
+.logo-sciences-po
+{
+	margin-top: 40px;
+}
+
+.logo-ministere
+{
+	width: 60px;
+	margin-top: 10px;
+}
+
+.logo-google
+{
+	width: 100px;
+	margin-top: 30px;
+}
+
+.logo-google:hover
+{
+	width: 120px;
+}
+
+.logo-bnf
+{
+	width: 150px;
+	margin-top: 30px;
+}
+
+.row-organizations-title h1
+{
+	margin-top: 30px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.row-organizations
+{
+	margin-top: 0px;
+	text-align: center;
+}
+
+img
+{
+  transition-duration: 0.2s;
+}
+
+img:hover
+{
+	transform: scale(1.2);
+}

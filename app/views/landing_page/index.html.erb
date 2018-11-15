@@ -1,2 +1,8 @@
-<h1>LandingPage#index</h1>
-<p>Find me in app/views/landing_page/index.html.erb</p>
+
+<% if params[:p] && params[:p] == "1" %>
+<%= render 'landing_page/index1' %>
+<% elsif params[:p] && params[:p] == "2" %>
+<%= render 'landing_page/index2' %>
+<% elsif params[:p] && params[:p] == "3" %>
+<%= render 'landing_page/index3' %>
+<% end %>
