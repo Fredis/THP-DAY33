@@ -55,8 +55,6 @@ Les personnes qui sont à la recherche d'une formation pour apprendre à coder.
 
 Pour les futurs entrepreneurs qui recherchent un CTO (et qui pourraient s'en passer).
 
-## Goal
-
 ## Back
 
 - Bot Twitter (qui tourne 1 fois par jour via Heroku Scheduler) qui récupère les derniers tweets contenant l'expression "recherche un CTO" et renvoi d'un tweet au handle qui a posté.
