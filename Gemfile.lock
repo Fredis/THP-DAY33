@@ -116,11 +116,8 @@ GEM
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
-<<<<<<< HEAD
     json (2.1.0)
-=======
     jwt (2.1.0)
->>>>>>> 90deb61727253b6f11747088071fc612ac47bc74
     launchy (2.4.3)
       addressable (~> 2.3)
     letter_opener (1.6.0)
@@ -190,7 +187,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    regexp_parser (1.2.0)
+    regexp_parser (1.3.0)
     representable (3.0.4)
       declarative (< 0.1.0)
       declarative-option (< 0.2.0)
