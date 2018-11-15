@@ -21,9 +21,6 @@ Les 3 Landing Pages possèdent le même design qui reste lié à l'identité du 
 - la baseline
 - le Call-To-Action
 
-### Color Panel
-
-### Design
 
 # Landing Page 1
 
@@ -33,12 +30,9 @@ Les 3 Landing Pages possèdent le même design qui reste lié à l'identité du 
 
 Cette Landing Page est dédiée aux associations populaires dont l'intérêt d'une telle formation leur permettrait d'apprendre le code à des formateurs.
 
-## Goal
-
 ## Back
 
 - Mailer (un asso qui a envoyé des mails à des associations d'éducation populaire)
-## Front
 
 # Landing Page 2
 
@@ -48,14 +42,10 @@ Cette Landing Page est dédiée aux associations populaires dont l'intérêt d'u
 
 Les personnes qui sont à la recherche d'une formation pour apprendre à coder.
 
-## Goal
-
 ## Back
 
 - Bot Twitter (qui tourne 1 fois par jour via Heroku Scheduler) qui récupère les derniers tweets contenant l'expression "apprendre à coder" et renvoi d'un tweet au handle qui a posté.
 
-
-## Front
 
 # Landing Page 3
 
@@ -70,10 +60,7 @@ Pour les futurs entrepreneurs qui recherchent un CTO (et qui pourraient s'en pas
 ## Back
 
 - Bot Twitter (qui tourne 1 fois par jour via Heroku Scheduler) qui récupère les derniers tweets contenant l'expression "recherche un CTO" et renvoi d'un tweet au handle qui a posté.
-
-## Front
-
-- Bootstrap    
+   
 
 # Mailer Newsletter 
 
@@ -82,6 +69,7 @@ Un mailer newsletter qui envoie régulièrement (avec Heroku Scheduler) un mail 
 # Tools Used
 
 Utilisation de l'API MailChimp / Twitter / Gmail.
+Bootstrap pour le front.
 
 # Sayonara 
 
