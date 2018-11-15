@@ -14,7 +14,15 @@
 				</div>
 				<div class="col-8">
 					<h1>
-						Apprenez à coder <span class="text-underline">gratuitement</span> pour former vos futurs élèves !
+						<% if params[:p] && params[:p] == "1" %>
+							Apprenez à coder <span class="text-underline">gratuitement</span> pour former vos futurs élèves !
+							<% elsif params[:p] && params[:p] == "2" %>
+							Apprenez à coder NUMBER 2 <span class="text-underline">gratuitement</span> pour former vos futurs élèves !		
+							<% elsif params[:p] && params[:p] == "3" %>
+							Apprenez à coder NUMBER 3 <span class="text-underline">gratuitement</span> pour former vos futurs élèves !
+							<% else %>
+							Apprenez à coder <span class="text-underline">gratuitement</span> pour former vos futurs élèves !
+						<% end %>
 					</h1>
 				</div>
 				<div class="col-2">
@@ -26,7 +34,15 @@
 				</div>
 				<div class="col-10">
 					<p>
-						Rejoignez la nouvelle ère de formation au numérique avec The Hacking Project, un programme gratuit de 55 jours pour apprendre les bases du développement web en Ruby et créer des projets sans l'aide de personnes. #Communauté #Gratuité #CréerSonProto #LibertéAccèsApprentissage !
+						<% if params[:p] && params[:p] == "1" %>
+							Rejoignez la nouvelle ère de formation au numérique avec The Hacking Project, un programme gratuit de 55 jours pour apprendre les bases du développement web en Ruby et créer des projets sans l'aide de personnes. #Communauté #Gratuité #CréerSonProto #LibertéAccèsApprentissage !
+							<% elsif params[:p] && params[:p] == "2" %>
+							Rejoignez la nouvelle ère de formation au numérique avec The Hacking Project, un programme gratuit de 55 jours pour apprendre les bases du développement web en Ruby et créer des projets sans l'aide de personnes. #Communauté #Gratuité #CréerSonProto #LibertéAccèsApprentissage !	
+							<% elsif params[:p] && params[:p] == "3" %>
+							Rejoignez la nouvelle ère de formation au numérique avec The Hacking Project, un programme gratuit de 55 jours pour apprendre les bases du développement web en Ruby et créer des projets sans l'aide de personnes. #Communauté #Gratuité #CréerSonProto #LibertéAccèsApprentissage !
+							<% else %>
+							Rejoignez la nouvelle ère de formation au numérique avec The Hacking Project, un programme gratuit de 55 jours pour apprendre les bases du développement web en Ruby et créer des projets sans l'aide de personnes. #Communauté #Gratuité #CréerSonProto #LibertéAccèsApprentissage !
+							<% end %>
 					</p>
 				</div>
 				<div class="col-1">
