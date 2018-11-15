@@ -39,8 +39,13 @@
 
 # Landing Page 1
 
+    https://the-growth-hacking-project.herokuapp.com/?p=1
+    
 ## Target
 
+For the Associations
+
+    
 ## Goal
 
 ## Back
@@ -55,8 +60,11 @@
 
 # Landing Page 2
 
+    https://the-growth-hacking-project.herokuapp.com/?p=2
+
 ## Target
 
+For the people search programming 
 ## Goal
 
 ## Back
@@ -71,8 +79,11 @@
 
 # Landing Page 3
 
+    https://the-growth-hacking-project.herokuapp.com/?p=3
+    
 ## Target
 
+For  entrepreneurs who search for CTO....
 ## Goal
 
 ## Back
