@@ -2,9 +2,9 @@
 class AssoMailerPreview < ActionMailer::Preview
 
   def acquisition_mail_preview
-    ExampleMailer.acquisition_email(Association.first)
+    AssoMailer.acquisition_email(Association.first)
   end
 end
 
 
-end
+

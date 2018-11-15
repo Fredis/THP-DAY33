@@ -1,14 +1,18 @@
-require 'google-drive'
+require 'csv'
 
 class DatabaseAssociation
 
-  def initialize
-    items = []
-    CSV.foreach('link/to/file.csv', headers: true) do |row|
-    items << Item.new(row.to_h)
+  def save
+    association = Association.new
+    CSV.foreach('db/BDD.csv', headers: true) do |row|
+    association = Association.create!(name: row[0],email: row[1])
     end
-    Item.import(items)
   end 
+
+  def perform
+    save
+  end 
+
 
 end 
   

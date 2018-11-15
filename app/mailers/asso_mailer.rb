@@ -1,8 +1,8 @@
 class AssoMailer < ApplicationMailer
   default from: "juliette.thp@gmail.com"
 
-  def acquistion_email(association)
+  def acquisition_email(association)
     @association = association
-    mail(to: @association.email, subject: 'Sample Email')
+    mail(to: @association.email, subject: 'Bonjour!')
   end 
 end
