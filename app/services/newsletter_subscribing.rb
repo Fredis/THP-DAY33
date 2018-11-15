@@ -1,12 +1,22 @@
 class NewsletterSubscribing
   
 
-	def mailchimp_add_a_mail_to_a_list(mail)
+	def mailchimp_add_a_mail_to_a_list(mail, source)
 		mailchimp = Mailchimp::API.new(Rails.application.credentials.MAILCHIMP_API_KEY)
-		mailchimp.lists.subscribe(Rails.application.credentials.MAILCHIMP_LIST_ID, 
+
+    if source == "1"
+      mailchimp_list_id = Rails.application.credentials.MAILCHIMP_FIRST_LIST_ID
+    elsif source == "2"
+      mailchimp_list_id = Rails.application.credentials.MAILCHIMP_SECOND_LIST_ID
+    elsif source == "3"
+      mailchimp_list_id = Rails.application.credentials.MAILCHIMP_THIRD_LIST_ID
+    end
+
+		mailchimp.lists.subscribe(mailchimp_list_id, 
       { :email => mail,
       	:double_optin => false
       })
+
 	end
 
   def get_mailchimp_members
@@ -39,8 +49,8 @@ class NewsletterSubscribing
     end
   end
 
-  def perform(mail)
-  	mailchimp_add_a_mail_to_a_list(mail)
+  def perform(mail, source)
+  	mailchimp_add_a_mail_to_a_list(mail, source)
   end
 
 end
