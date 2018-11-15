@@ -1,6 +1,9 @@
 class LandingPageController < ApplicationController
   
   def index
+  	if !params[:p]
+  		redirect_to 'https://www.thehackingproject.org'
+  	end
   end
 
   def subscribing
