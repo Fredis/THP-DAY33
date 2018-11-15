@@ -15,13 +15,13 @@ class twitter_bot
 	def auto_tweet_cto
 
 	    @client.search("Recherche & CTO", result_type: "recent").take(25).each do |tweet|
-        puts @client.update("@#{tweet.user.screen_name} Ne cherchez plus un CTO et apprenez vous même à développer votre application avec le bootcamp The Hacking Project ! Plus d'informations : https://thp-nantes-hacking-pro.herokuapp.com/"
+        puts @client.update("@#{tweet.user.screen_name} Ne cherchez plus un CTO et apprenez vous même à développer votre application avec le bootcamp The Hacking Project ! Plus d'informations : http://bit.ly/2QKRt39"
    end
 
    def auto_tweet_formation
 
 	    @tclient.search("Apprendre à coder", result_type: "recent").take(25).each do |tweet|
-        puts @client.update("@#{tweet.user.screen_name} Apprenez à coder en 3 mois avec la formation de the hacking project ! Plus d'informations : https://thp-nantes-hacking-pro.herokuapp.com/"
+        puts @client.update("@#{tweet.user.screen_name} Apprenez à coder en 3 mois avec la formation de the hacking project ! Plus d'informations : http://bit.ly/2QKfVSp"
    end
  
 	def perfom
