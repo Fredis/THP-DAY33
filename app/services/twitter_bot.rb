@@ -1,4 +1,4 @@
-class twitter_bot
+class twitterbot
 
 
 	def config 
