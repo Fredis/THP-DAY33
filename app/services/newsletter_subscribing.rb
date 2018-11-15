@@ -19,6 +19,7 @@ class NewsletterSubscribing
     array_of_subscribers_second_list = get_the_members_list(mailchimp_array_second_list)
     array_of_subscribers_third_list = get_the_members_list(mailchimp_array_third_list)
 
+    Subscriber.destroy_all
     add_members_to_database(array_of_subscribers_first_list)
     add_members_to_database(array_of_subscribers_second_list)
     add_members_to_database(array_of_subscribers_third_list)
