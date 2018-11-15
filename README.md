@@ -11,27 +11,15 @@
     - @iCédric  ( le cerveau)
     - @Juliette ( la belle)
     
-### How to ?
+### What is the project ?
     
-    #### Production test :
-    
-    Landing Page - 
-    
-    Landing Page -
-    
-    Landing Page -
-    
-####     Local -  Advanced test mode
-
-1. Clone repo git clone https://github.com/Fredis/THP-DAY33 </br>
-2. Cd THP-DAY33 </br>
-3. Bundle Install </br>
-4. Rails db:migrate </br>
-5. Create .env file at root with your API Keys </br>
-6. Rails S </br>
-7. Launch browser then type [localhost] http://localhot:3000  </br>
+Ce projet a pour but de réaliser des actions de Growth Hacking. L'idée est de récupérer plusieurs sources de contact (via plusieurs manières), de créer des Landing Pages personnalisées, de diriger les contacts vers ces Landing Pages afin de convertir l'utilisateur en l'incitant à souscrire à la newsletter, newsletter qui sera envoyé regulièrement aux différents contacts.
 
 ## Design Choice
+
+Les 3 Landing Pages possèdent le même design qui reste lié à l'identité du site principal de The Hacking Project. Ainsi, on retrouve la police d'écriture du site, les couleurs dominantes comme le blanc, le noir, le violet, le jaune... Nous avons choisi de volontairement éviter le scroll down pour l'utilisateur en mettant en avant deux choses :
+- la baseline
+- le Call-To-Action
 
 ### Color Panel
 
@@ -43,18 +31,19 @@
     
 ## Target
 
-For the Associations
+Cette Landing Page est dédiée aux associations populaires dont l'intérêt d'une telle formation leur permettrait d'apprendre le code à des formateurs.
 
-    
 ## Goal
 
 ## Back
 
-- Scrapper
+- Scrapping de mails sur un site dédié.
 
-- Database
+- Insertion des mails dans un csv.
 
-- Mailer
+- Récupération des mails du csv puis insertion en BDD.
+
+- Création d'un mail et envoi d'un mail ciblé.
 
 ## Front
 
@@ -64,16 +53,13 @@ For the Associations
 
 ## Target
 
-For the people search programming 
+Les personnes qui sont à la recherche d'une formation pour apprendre à coder.
+
 ## Goal
 
 ## Back
 
-- Scrapper
-
-- Database
-
-- Mailer
+- Bot Twitter (qui tourne 1 fois par jour via Heroku Scheduler) qui récupère les derniers tweets contenant l'expression "apprendre à coder" et renvoi d'un tweet au handle qui a posté.
 
 ## Front
 
@@ -83,16 +69,13 @@ For the people search programming
     
 ## Target
 
-For  entrepreneurs who search for CTO....
+Pour les futurs entrepreneurs qui recherchent un CTO (et qui pourraient s'en passer).
+
 ## Goal
 
 ## Back
 
-- Scrapper
-
-- Database
-
-- Mailer
+- Bot Twitter (qui tourne 1 fois par jour via Heroku Scheduler) qui récupère les derniers tweets contenant l'expression "recherche un CTO" et renvoi d'un tweet au handle qui a posté.
 
 ## Front
     
