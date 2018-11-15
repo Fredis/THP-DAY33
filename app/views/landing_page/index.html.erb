@@ -42,10 +42,12 @@
 			</div>
 			<div class="col-6">
 				<h1>Inscrivez-vous à notre newsletter (c'est gratuit aussi)</h1>
-				<form class="form-inline form-margin">
-					<input type="email" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Entrez votre adresse email">
-					<button type="submit" class="btn mb-2 button-landing">Découvrir THP</button>
-				</form>
+				
+				<%= form_for(:newsletter, :html => {:class => "form-inline form-margin"}) do |f| %>
+					<%= f.text_field :mail, class: "form-control mb-2 mr-sm-2", id: "inlineFormInputName2", placeholder: "Entrez votre adresse email" %>
+					<%= f.submit "Découvrir THP", class: "btn mb-2 button-landing" %>
+				<% end %>
+
 			</div>
 			<div class="col-3">
 			</div>
